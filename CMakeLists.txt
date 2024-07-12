@@ -179,9 +179,7 @@ set( OPENGV_HEADER_FILES
   include/opengv/sac/MultiRansac.hpp
   include/opengv/sac/MultiSampleConsenses.hpp
   include/opengv/sac/MultiSampleConsensusProblem.hpp
-  include/opengv/sac/Ransac.hpp
-  include/opengv/sac/SampleConsesus.hpp
-  include/opengv/sac/SampleConsensusProblem.hpp)
+  include/opengv/sac/Ransac.hpp)
 
 add_library( opengv ${OPENGV_SOURCE_FILES} ${OPENGV_HEADER_FILES} )
 add_library( random_generators test/random_generators.cpp test/random_generators.hpp test/experiment_helpers.cpp test/experiment_helpers.hpp test/time_measurement.cpp test/time_measurement.hpp )
