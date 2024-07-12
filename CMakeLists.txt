@@ -175,10 +175,6 @@ set( OPENGV_HEADER_FILES
   include/opengv/relative_pose/MANoncentralRelative.hpp
   include/opengv/relative_pose/MANoncentralRelativeMulti.hpp
   include/opengv/point_cloud/MAPointCloud.hpp
-  include/opengv/sac/Lmeds.hpp
-  include/opengv/sac/MultiRansac.hpp
-  include/opengv/sac/MultiSampleConsenses.hpp
-  include/opengv/sac/MultiSampleConsensusProblem.hpp
   include/opengv/sac/Ransac.hpp)
 
 add_library( opengv ${OPENGV_SOURCE_FILES} ${OPENGV_HEADER_FILES} )
